@@ -1,0 +1,38 @@
+/* BODY */
+
+.grande_cat{
+    vertical-align: middle;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.sous_cat{
+    display: inline-block;   
+}
+
+/* CATEGORIES PRODUITS A VENDRE */
+
+.nom_sous_cat{
+    text-align: center;
+    font-weight: bold;
+}
+
+#img_fut{
+    margin-right: 5%;
+}
+
+#img_tireuse{
+    margin-left: 5%;
+}
+
+#img_bouteille{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton_page_produit{
+    display: block;
+    margin: auto;
+}
