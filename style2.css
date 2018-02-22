@@ -36,3 +36,95 @@
     display: block;
     margin: auto;
 }
+
+/* IMG RESEAUX SOCIAUX */
+
+.img_res_soc img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+
+/* DIAPOSITIVE PROMO */
+
+/* IMG PROMO */
+
+.promo{
+   display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.promo img{
+    width: 30%;
+    justify-content: space-around; 
+}
+
+/*slideshow styles*/
+
+.slideshow {
+  width: 625px;
+  margin: auto;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.slideshow-container {
+  width: 2500px;
+  font-size: 0;
+  transition: 1s ease;
+  height: 225px;
+}
+
+.slideshow-container:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  
+  12.5% {
+    transform: translateX(0%);
+  }
+  
+  25% {
+    transform: translateX(-25%);
+  }
+  
+  37.5% {
+    transform: translateX(-25%);
+  }
+  
+  50% {
+    transform: translateX(-50%);
+  }
+  
+  62.5% {
+    transform: translateX(-50%);
+  }
+  
+  75% {
+    transform: translateX(-75%);
+  }
+  
+  87.5% {
+    transform: translateX(-75%);
+  }
+  
+  99% {
+    transform: translateX(-75%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
