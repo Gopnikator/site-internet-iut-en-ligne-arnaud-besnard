@@ -37,9 +37,30 @@
     margin: auto;
 }
 
+/* IMG RESEAUX SOCIAUX */
+
+.img_res_soc img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+
 /* DIAPOSITIVE PROMO */
 
+/* IMG PROMO */
 
+.promo{
+   display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.promo img{
+    width: 30%;
+    justify-content: space-around; 
+}
 
 /*slideshow styles*/
 
