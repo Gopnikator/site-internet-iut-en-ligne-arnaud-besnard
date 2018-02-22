@@ -6,13 +6,73 @@
     border-color: black;
     border-radius: 20px;
     margin-bottom: 3%;
+    margin-top: 20px;
 }
 
 .sous_cat{
     display: inline-block;   
 }
 
+/* BARRE DE RECHERCHE */ 
+
+#barre_recherche{
+    float: right;
+    margin-top: 1%;
+}
+
+/* CATEGORIES PRODUITS A VENDRE */
+
+.nom_sous_cat{
+    text-align: center;
+    font-weight: bold;
+}
+
+#img_fut{
+    margin-right: 5%;
+}
+
+#img_tireuse{
+    margin-left: 5%;
+}
+
+#img_bouteille{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton_page_produit{
+    display: block;
+    margin: auto;
+}
+
+/* IMG RESEAUX SOCIAUX */
+
+.img_res_soc img{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+
+
+/* DIAPOSITIVE PROMO */
+
+/* IMG PROMO */
+
+.promo{
+   display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.promo img{
+    width: 30%;
+    justify-content: space-around; 
+}
+
 /* MENU DEROULANT */
+
+
 
 /* Style The Dropdown Button */
 .dropbtn {
@@ -68,55 +128,7 @@
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 
-/* CATEGORIES PRODUITS A VENDRE */
 
-.nom_sous_cat{
-    text-align: center;
-    font-weight: bold;
-}
-
-#img_fut{
-    margin-right: 5%;
-}
-
-#img_tireuse{
-    margin-left: 5%;
-}
-
-#img_bouteille{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bouton_page_produit{
-    display: block;
-    margin: auto;
-}
-
-/* IMG RESEAUX SOCIAUX */
-
-.img_res_soc img{
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-}
-
-
-
-/* DIAPOSITIVE PROMO */
-
-/* IMG PROMO */
-
-.promo{
-   display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.promo img{
-    width: 30%;
-    justify-content: space-around; 
-}
 
 
 
