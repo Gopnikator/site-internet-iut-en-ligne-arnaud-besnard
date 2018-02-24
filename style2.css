@@ -1,10 +1,11 @@
 /* NAV */
 nav{
     margin: auto;
-    padding: 10px;
+    width: 100%;
+    height: 100%;
     background-color: linen;
-    border-radius: 10px;
-    margin: 1.5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding-bottom: 130px;
 }
 
@@ -16,7 +17,13 @@ nav{
 }
 .logo_ent{
     float:left;
-    margin-top: 1%;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+#logo_douabeer{
+    height: 115px;
+    width: auto;
 }
 
 #mon_compte{
@@ -30,42 +37,51 @@ nav{
     padding-bottom: 10px;
 }
 
+#barre_recherche{
+    margin-right: 20px;
+}
+
 /* menu de navigation */
 
 .menu{
-    margin-left: 5%;
+    margin-left: 7.5%;
     float: left;
     margin-top: 2%;
-}
-
-#barre_recherche{
-    margin-right: 20px;
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
     background-color:lightblue;
     color:black;
-    padding: 20px 60px;
+    padding: 15px 45px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
+    margin-right: 10px;
     
 }
 
 .menu_button {
     background-color: lightblue;
     color: black;
-    padding: 20px 60px;
+    padding: 15px 45px;
     font-size: 20px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown2 {
     position: relative;
     display: inline-block;
 }
@@ -101,6 +117,10 @@ nav{
     background-color: #3e8e41;
 }
 
+.dropdown2:hover .menu_button {
+    background-color: #3e8e41;
+}
+
 /* BODY */
 body{
     background-color: lightgrey;
@@ -116,13 +136,10 @@ body{
     margin-left: 1.5%;
     margin-right: 1.5%;
     background-color: ghostwhite;
+    padding-bottom: 40px;
 }
 
-.sous_cat{
-    display: inline-block;
-    margin-left: 5%;
-    
-}
+
 
 .nom_grande_cat{
     text-align: center;
@@ -149,40 +166,80 @@ body{
 
 /* categories produits a vendre */
 
-.nom_sous_cat{
-    text-align: center;
-    font-weight: bold;
+.sous_cat{
+    display: inline-block;
+    margin-left: 5%;
+    align-items: center;    
+}
+
+.sous_cat img{
+    width: 30%;
+    margin-top: 1%;
+    margin-right: 2%;
     
 }
 
-#img_fut{
-    margin-right: 5%;
-}
-
-#img_tireuse{
-    margin-left: 5%;
-}
-
-#img_bouteille{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.bouton_page_produit{
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-
 /* FOOTER */
+
+footer {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 100%;
+    color:white;
+    background-color:black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer div{
+    margin: 15px;
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+footer p{
+    margin: 0;
+}
+
+.en_savoir_plus{
+    margin-right: 50px;
+}
 
 /* img reseaux sociaux */
 
+.img_res_soc{
+    margin: 0 auto;
+    text-align: center;
+}
 .img_res_soc img{
     width: 60px;
     height: 60px;
+    margin: 0;
     display: inline-block;
+    padding-right: 20px;
+    
+}
+
+.img_moyens_paiement{
+    margin:0 auto;
+}
+
+.img_moyens_paiement img{
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 
