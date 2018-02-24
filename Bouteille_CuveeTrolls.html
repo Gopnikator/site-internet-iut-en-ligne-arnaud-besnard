@@ -15,37 +15,40 @@
     </header>
   
     <nav>
-        <div >
-            <ul id = "menu" >
-                <li>
-                   <a href="Accueil.html">Accueil </a></li>
-                <li >
-                   <a href="la carte">La carte</a></li>
-                   <ul>                          
-                       <li><a href="page1.html">Bouteilles</a></li>
-                       <li><a href="page2.html">Futs</a></li>
-                       <li><a href="page3.html">Tireuses</a></li>
-                   </ul>
-                <li >
-                   <a href="le bar">Le bar</a></li>
-                    <ul >                          
-                       <li><a href="page1.html">Qui sommes nous</a></li>
-                       <li><a href="page2.html">Où nous trouver</a></li>
-                       <li><a href="page3.html">Sous menu 3</a></li>
-                   </ul>
-                <li>
-                   <a href="contact">Contact</a></li>
-                <form method="post" action="recherche.html">
-                   <input type="text" class="textbox" placeholder="Search">
-                   <input title="Search" value="&#x1F50E;" type="submit" class="button">
-                </form>
-		  	</ul>
-            
-           
+        <div class="logo_ent"><a href="Accueil.html"> <img id="logo_douabeer" src="images/autres/logo_douabeer3.png" alt="logo_ent"></a></div> 
+        <div class="menu">
+            <div class="dropdown2">
+              <a href="Accueil.html"> <button class="menu_button"> Accueil </button></a>
+            </div>
+            <div class="dropdown">               
+                <button class="dropbtn">La carte</button>
+                <div class="dropdown-content">
+                    <a href="Bouteilles.html">Bouteilles</a>
+                    <a href="Futs.html">Futs</a>
+                    <a href="Equipement.html">Equipement</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+            <a href="Accueil.html"> <button class="menu_button"> Le bar </button></a>
+            </div>
+            <div class="dropdown2">
+            <a href="Contact.html"> <button class="menu_button"> Contact </button></a>  
+            </div>      
         </div>
         
+        <div class="elements_droite">
+            <div class="compte_panier">
+                  <a href="login.html"> <img id="mon_compte" src="images/autres/choppeBiere.png" alt="mon_compte"></a>
+                  <a href="Panier.html"><img id="mon_panier" src="images/autres/panier.png" alt="mon_panier"></a>
+            </div>
+
+            <form id="barre_recherche" method="post" action="recherche.html">
+               <input class="textbox" type="text"  placeholder="Search">
+               <input class="button" title="Search" value="&#x1F50E;" type="submit" >
+            </form>
+        </div>
         
-      </nav>
+    </nav>
 			
 			<!-- Produit -->
 			<main>
@@ -62,7 +65,7 @@
                             <h3 class="nom_sous_cat">En quelques mots</h3>
                             <p>Brassée depuis l'an 2000, La cuvée des Trolls est une bière belge produite par la Brasserie Dubuisson, aussi connue pour les caractérielles bières Bush.</p>
                             
-                            <a href="#"> <input class="bouton_ajout_panier" type=button name ="Panier" value="Ajouter au panier"/></a>
+                            <a href="Panier.html"> <input class="bouton_ajout_panier" type=button name ="Panier" value="Ajouter au panier"/></a>
                             
                         </article>
                     </div>
@@ -96,23 +99,28 @@
 			
 			<footer>
 			
-                <header>
+                <div>
                     <h2>Rejoignez-nous sur les reseaux sociaux</h2>
-                </header>
-                <!--<div class="img_res"><a href="https://www.facebook.com"><img src="images/logo_fb.png" alt="tonimage" /></a></div>
-                <div class="img_res" style="background-image: url(images/logo_fb.png)"><a href="https://www.facebook.com"/></div>
-                <div action="https://www.facebook.com" class="img_res" style="background-image: url(images/logo_twitter.png)"></div>
-                <div class="img_res" style="background-image: url(images/google_plus_logo.png)"></div> -->
-        
-                <table class="navFooterVerticalColumn" cellspacing="0" align="center" role="presentation"><tr><td class="navFooterLinkCol"><div class="navFooterColHead">Contact</div><ul><li class='nav_first'>Untitled Incorporated</li><li>someone@untitled.tld</li><li>(800) 000-0000</li></ul></td>
+                    <div class="img_res_soc" >
+                        <a href="https://www.facebook.com"> <img src="images/res_sociaux/logo_fb_beer3.png" alt="logo_fb"></a>
+                        <a href="https://www.twitter.com"><img src="images/res_sociaux/logo_twitter_beer3.png" alt="logo_twitter"></a>
+                        <a href="https://www.instagram.com"><img src="images/res_sociaux/logo_instabeer.png" alt="logo_instagram"></a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Nous acceptons les moyens de paiement suivants</h2>
+                    <div class="img_moyens_paiement" >
+                       <img src="images/res_sociaux/moyens_paiement.png" alt="paiement">
+                    </div>
+                </div>
 
-                <td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Adresse</div><ul><li class='nav_first'>    <li class='nav_first'>Untitled Incorporated</li><li>1234 Somewhere Road Suite</li><li>Nashville, TN 00000-0000</li></ul></td>
-
-                <td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Localisations</div><ul><li class='nav_first'>    <li class='nav_first'>Magasin 1</li><li>M2</li><li>M3</li></ul></td>
-
-                <td class="navFooterColSpacerInner"></td><td class="navFooterLinkCol"><div class="navFooterColHead">Service client</div><ul><li class='nav_first'>    <li class='nav_first'>SAV</li><li>Besoin d'aide?</li><li>Laissez nous votre avis</li></ul></td>
-            
-                </tr></table><div class="nav-footer-line"></div>
+                <div class="en_savoir_plus">
+                <h2>Pour en savoir plus</h2>
+                    <a href="#"> <p>Foire aux questions</p> </a>
+                    <a href="#"> <p>Conditions générales de vente</p> </a>
+                    <a href="#"> <p>Transport et livraison</p> </a>
+                    <a href="#"> <p>Mentions légales</p> </a>
+                </div>
 			
 			</footer>
 		

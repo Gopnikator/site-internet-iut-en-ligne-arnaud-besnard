@@ -16,25 +16,106 @@
 			
 			
 			<nav>
-				<ul>
-					<li><a href="Accueil.html">Accueil</a></li>
-					<li><a href="Carte.html">Carte</a></li>
-					<li><a href="Bar.html">Le bar</a></li>
-					<li><a href="Contact.html">Contact</a></li>
-				</ul>
+				<div class="logo_ent"><a href="Accueil.html"> <img id="logo_douabeer" src="images/autres/logo_douabeer3.png" alt="logo_ent"></a></div> 
+                <div class="menu">
+                    <div class="dropdown2">
+                      <a href="Accueil.html"> <button class="menu_button"> Accueil </button></a>
+                    </div>
+                    <div class="dropdown">               
+                        <button class="dropbtn">La carte</button>
+                        <div class="dropdown-content">
+                            <a href="Bouteilles.html">Bouteilles</a>
+                            <a href="Futs.html">Futs</a>
+                            <a href="Equipement.html">Equipement</a>
+                        </div>
+                    </div>
+                    <div class="dropdown2">
+                    <a href="Accueil.html"> <button class="menu_button"> Le bar </button></a>
+                    </div>
+                    <div class="dropdown2">
+                    <a href="Contact.html"> <button class="menu_button"> Contact </button></a>  
+                    </div>      
+                </div>
+
+                <div class="elements_droite">
+                    <div class="compte_panier">
+                          <a href="login.html"> <img id="mon_compte" src="images/autres/choppeBiere.png" alt="mon_compte"></a>
+                          <a href="Panier.html"><img id="mon_panier" src="images/autres/panier.png" alt="mon_panier"></a>
+                    </div>
+
+                    <form id="barre_recherche" method="post" action="recherche.html">
+                       <input class="textbox" type="text"  placeholder="Search">
+                       <input class="button" title="Search" value="&#x1F50E;" type="submit" >
+                    </form>
+                </div>
 			</nav>
 			
 			
 			<main>
-			
-			
-				
+                
+                
+                <ol>
+                    <li><img src="images/futs/Fut_Affligem_Blonde.jpg" alt="Affligem">
+                        <img src="images/futs/Fut_Affligem_Carmin.png" alt="Affligem">
+                        <h3 class="nom_produit">Futs Affligem : blonde ou carmin</h3></li>
+
+                    <li><img src="images/futs/Fut_CuveeTrolls.jpg" alt="Cuvee des Trolls">
+                        <h3 class="nom_produit">Fut Cuvee des Trolls</h3></li>
+
+                    <li><img src="images/futs/Fut_DeliriumTremens.jpg" alt="Delirium Tremens">
+                        <h3 class="nom_produit">Fut Delirium Tremens</h3></li>
+
+                    <li><img src="images/futs/Fut_Hoegaarden.jpg" alt="Hoegaarden">
+                        <h3 class="nom_produit">Fut Hoegaarden</h3></li>
+
+                    <li><img src="images/futs/Fut_Jupiler.jpg" alt="Jupiler">
+                        <h3 class="nom_produit">Fut Jupiler</h3></li>
+
+                    <li><img src="images/futs/Fut_Leffe_Blonde.jpg" alt="Leffe">
+                        <img src="images/futs/Fut_Leffe_Brune.jpg" alt="Leffe">
+                        <img src="images/futs/Fut_Leffe_Rituel9.jpg" alt="Leffe">
+                        <img src="images/futs/Fut_Leffe_Rubis.jpg" alt="Leffe">
+                        <h3 class="nom_produit">Futs Leffe (bière d'abbaye) : blonde, brune, rituel9 ou ruby</h3></li>
+
+                    <li><img src="images/futs/Fut_Maes.jpg" alt="Maes">
+                        <h3 class="nom_produit">Fut Maes</h3></li>
+
+                    <li><img src="images/futs/Fut_RinceCochon.jpg" alt="Rince Cochon">
+                        <h3 class="nom_produit">Fut Rince Cochon</h3></li>
+
+                    <li><img src="images/futs/Fut_Stella.jpg" alt="Stella Artois">
+                        <h3 class="nom_produit">Fut Stella Artois</h3></li>
+
+                    <li><img src="images/futs/Fut_Tongerlo.jpg" alt="Tongerlo">
+                        <h3 class="nom_produit">Fut Tongerlo</h3></li>
+                </ol>
+                
 			</main>
 			
 			
 			<footer>
-			
-			
+                <div>
+                    <h2>Rejoignez-nous sur les reseaux sociaux</h2>
+                        <div class="img_res_soc" >
+                            <a href="https://www.facebook.com"> <img src="images/res_sociaux/logo_fb_beer3.png" alt="logo_fb"></a>
+                            <a href="https://www.twitter.com"><img src="images/res_sociaux/logo_twitter_beer3.png" alt="logo_twitter"></a>
+                            <a href="https://www.instagram.com"><img src="images/res_sociaux/logo_instabeer.png" alt="logo_instagram"></a>
+                        </div>
+                </div>
+                <div>
+                    <h2>Nous acceptons les moyens de paiement suivants</h2>
+                        <div class="img_moyens_paiement" >
+                           <img src="images/res_sociaux/moyens_paiement.png" alt="paiement">
+                        </div>
+                </div>
+
+                <div class="en_savoir_plus">
+                    <h2>Pour en savoir plus</h2>
+                        <a href="#"> <p>Foire aux questions</p> </a>
+                        <a href="#"> <p>Conditions générales de vente</p> </a>
+                        <a href="#"> <p>Transport et livraison</p> </a>
+                        <a href="#"> <p>Mentions légales</p> </a>
+                </div>
 			</footer>
 		
 		</div>
