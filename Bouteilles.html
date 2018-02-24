@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Carte des bieres bouteilles</title>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
 </head>
 
 <body>
@@ -13,8 +14,7 @@
 
 
         </header>
-
-
+        
         <nav>
             <div class="logo_ent"><a href="Accueil.html"> <img id="logo_douabeer" src="images/autres/logo_douabeer3.png" alt="logo_ent"></a></div> 
             <div class="menu">
@@ -22,52 +22,36 @@
                   <a href="Accueil.html"> <button class="menu_button"> Accueil </button></a>
                 </div>
                 <div class="dropdown">               
-                    <button class="dropbtn">La carte</button>
-                        <div class="dropdown-content">
-                            <a href="Bouteilles.html">Bouteilles</a>
-                            <a href="Futs.html">Futs</a>
-                            <a href="Equipement.html">Equipement</a>
-                        </div>
+                    <a href="Carte.html"><button class="dropbtn">La carte</button></a>
+                    <div class="dropdown-content">
+                        <a href="Bouteilles.html">Bouteilles</a>
+                        <a href="Futs.html">Futs</a>
+                        <a href="Equipement.html">Equipement</a>
+                    </div>
                  </div>
                 <div class="dropdown2">
-                <a href="Accueil.html"> <button class="menu_button"> Le bar </button></a>
+                <a href="Bar.html"> <button class="menu_button"> Le bar </button></a>
                 </div>
                 <div class="dropdown2">
                 <a href="Contact.html"> <button class="menu_button"> Contact </button></a>  
                 </div>      
-          </div>
-        <div class="elements_droite">
-            <div class="compte_panier">
-                  <a href="login.html"> <img id="mon_compte" src="images/autres/choppeBiere.png" alt="mon_compte"></a>
-                  <a href="Panier.html"><img id="mon_panier" src="images/autres/panier.png" alt="mon_panier"></a>
             </div>
-
+            <div class="elements_droite">
+                <div class="compte_panier">
+                    <a href="#"> <img id="mon_compte" src="images/autres/choppeBiere.png" alt="mon_compte"></a>
+                    <a href="Panier.html"><img id="mon_panier" src="images/autres/panier.png" alt="mon_panier"></a>
+                </div>
                 <form id="barre_recherche" method="post" action="recherche.html">
-                   <input class="textbox" type="text"  placeholder="Search">
-                   <input class="button" title="Search" value="&#x1F50E;" type="submit" >
+                    <input class="textbox" type="text"  placeholder="Search">
+                    <input class="button" title="Search" value="&#x1F50E;" type="submit" >
                 </form>
             </div>
         </nav>
 
         <main>
 
-
-            <div>
-                <div class="sorter">
-
-                    <p class="amount">
-                        Total des articles de <strong>1</strong> à <strong>???</strong> sur <strong>202</strong>
-                    </p>
-
-                    <p class="view-mode">
-                    </p>
-
-
-                </div>
-            </div>
             
-            
-            <ol>
+            <ul>
                 <li><a href="Bouteille_CuveeTrolls.html"><img src="images/bouteilles/Bouteille_365_Delhaize.jpg" alt="365 Delhaize">
                     <h3 class="nom_produit">365 Delhaize</h3></a></li>
                 
@@ -478,51 +462,7 @@
                 
                 <li><a href="Bouteille_CuveeTrolls.html"><img src="images/bouteilles/Bouteille_ZatteBie.jpg"  alt="Zatte Bie">
                     <h3 class="nom_produit">Zatte Bie</h3></a></li>
-            </ol>
-
-            
-            <div class="toolbar-bottom">
-                <div class="toolbar">
-                    <div class="pager">        
-
-                        <div class="left">&nbsp;</div>
-
-                        <div class="pages">
-                            <strong>Page :</strong>
-                            <ol>
-                                
-                                <li class="current">1</li>
-                                    <li><a href="http://www.deliriumcafe.be/bieres.html?p=2">2</a></li>
-                                    <li><a href="http://www.deliriumcafe.be/bieres.html?p=3">3</a></li>
-                                    <li><a href="http://www.deliriumcafe.be/bieres.html?p=4">4</a></li>
-                                    <li><a href="http://www.deliriumcafe.be/bieres.html?p=5">5</a></li>
-                                
-                                <li>
-                                    <a class="next i-next" href="http://www.deliriumcafe.be/bieres.html?p=2" title="Suivante">
-                                        <img src="http://www.deliriumcafe.be/skin/frontend/default/theme089k-deliriumcafe/images/pager_arrow_right.gif" alt="Suivante" class="v-middle" />
-                                    </a>
-                                </li>
-                            </ol>
-
-                        </div>
-
-                    </div>
-
-                    <div>
-                        <div class="sorter">
-
-                        <p class="amount">
-                            Total des articles de <strong>1</strong> à <strong>???</strong> sur <strong>202</strong>
-                        </p>
-
-                        <p class="view-mode">
-                        </p>
-
-
-                </div>
-            </div>
-                </div>
-            </div>
+            </ul>
 
         </main>
 
