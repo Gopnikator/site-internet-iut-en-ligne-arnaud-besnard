@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+		<meta charset="utf-8" />
+		<title>DouaBeer - Cuvée des Trolls</title>
+        <link rel="stylesheet" href="style2.css" type="text/css" />
+	</head>
+    
+    <body>
+		<div id="bloc_page">
+			<header>
+        <div class="img_logo" style="background-image: url(images/logo1.jpg)"></div>
+        <div class="img_panier" style="background-image: url(images/panier.png)"></div>
+        <div class="img_moncompte" style="background-image: url(images/choppeBiere.png)"></div>     
+    </header>
+  
+    <nav>
+        <div class="logo_ent"><a href="Accueil.html"> <img id="logo_douabeer" src="images/autres/logo_douabeer3.png" alt="logo_ent"></a></div> 
+        <div class="menu">
+            <div class="dropdown2">
+              <a href="Accueil.html"> <button class="menu_button"> Accueil </button></a>
+            </div>
+            <div class="dropdown">               
+                <a href="Carte.html"><button class="dropbtn">La carte</button></a>
+                <div class="dropdown-content">
+                    <a href="Bouteilles.html">Bouteilles</a>
+                    <a href="Futs.html">Futs</a>
+                    <a href="Equipement.html">Equipement</a>
+                </div>
+             </div>
+            <div class="dropdown2">
+            <a href="Bar.html"> <button class="menu_button"> Le bar </button></a>
+            </div>
+            <div class="dropdown2">
+            <a href="Contact.html"> <button class="menu_button"> Contact </button></a>  
+            </div>      
+        </div>
+        <div class="elements_droite">
+            <div class="compte_panier">
+                <a href="#"> <img id="mon_compte" src="images/autres/choppeBiere.png" alt="mon_compte"></a>
+                <a href="Panier.html"><img id="mon_panier" src="images/autres/panier.png" alt="mon_panier"></a>
+            </div>
+            <form id="barre_recherche" method="post" action="recherche.html">
+                <input class="textbox" type="text"  placeholder="Search">
+                <input class="button" title="Search" value="&#x1F50E;" type="submit" >
+            </form>
+        </div>
+    </nav>
+			
+			<!-- Produit -->
+			<main>
+                <div class="grande_cat">
+                    <h1 class = "nom_grande_cat">La Cuvée des Trolls</h1>
+                    <div>
+                        <article class="sous_cat">
+                            
+                            <img src="images/bouteilles/Bouteille_CuveeDesTrolls.jpg" alt="Cuvée des Trolls">
+                            
+                            <h3>Prix</h3>
+                            <p>1.95&#x20AC/unité</p>
+                            
+                            <h3 class="nom_sous_cat">En quelques mots</h3>
+                            <p>Brassée depuis l'an 2000, La cuvée des Trolls est une bière belge produite par la Brasserie Dubuisson, aussi connue pour les caractérielles bières Bush.</p>
+                            
+                            <a href="Panier.html"> <input class="bouton_ajout_panier" type=button name ="Panier" value="Ajouter au panier"/></a>
+                            
+                        </article>
+                    </div>
+                </div>
+                
+                <div class ="grande_cat">
+                    <h2 class="nom_grande_cat">Pour en savoir plus !</h2>
+                    <div>
+                        <article class="sous_cat">
+                            <h3 class="nom_sous_cat">Description</h3>
+                            <p>La Cuvée des Trolls est une bière blonde, filtrée ou non filtrée, fraîche et parfumée, particulièrement ronde et bien équilibrée. Son taux d'alcool étant de 7%, il est conseillé de la servir à 3 °C.<br>
+                            Elle intègre évidemment tous les critères de qualité des bières de la brasserie Dubuisson, c'est-à-dire un brassage traditionnel, sans aucun additif avec un caractère indéniable. Brassée à partir de moût sucré auquel on rajoute du houblon et des écorces d'orange séchées, elle est fermentée à haute température (23 °C) pendant une semaine.<br>
+                            Ainsi, la Cuvée des Trolls possède des notes de fraîcheur et des arômes particulièrement agréables et fruités. Au palais, la Cuvée des Trolls présente une rondeur constituée à la fois de goûts et de saveurs assez relevés, mais particulièrement bien équilibrés. L’amertume, l’acidité et le sucré s’équilibrent parfaitement et donne ainsi une bière goûteuse et sans aspérités désagréables.</p>
+                            
+                        </article>
+                    </div>
+            
+                    <div>
+                        <article class="sous_cat" id="img_bouteille">
+                            <h3 class="nom_sous_cat">Vos avis</h3>
+                            <p>Il n'y a pas encore d'avis sur le produit. Tester et laisser le votre !</p>
+                        </article>
+            
+                    </div>
+        
+                </div>
+				
+			</main>
+			
+            <!-- Fin Produit -->
+			
+			<footer>
+			
+                <div>
+                    <h2>Rejoignez-nous sur les reseaux sociaux</h2>
+                    <div class="img_res_soc" >
+                        <a href="https://www.facebook.com"> <img src="images/res_sociaux/logo_fb_beer3.png" alt="logo_fb"></a>
+                        <a href="https://www.twitter.com"><img src="images/res_sociaux/logo_twitter_beer3.png" alt="logo_twitter"></a>
+                        <a href="https://www.instagram.com"><img src="images/res_sociaux/logo_instabeer.png" alt="logo_instagram"></a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Nous acceptons les moyens de paiement suivants</h2>
+                    <div class="img_moyens_paiement" >
+                       <img src="images/res_sociaux/moyens_paiement.png" alt="paiement">
+                    </div>
+                </div>
+
+                <div class="en_savoir_plus">
+                <h2>Pour en savoir plus</h2>
+                    <a href="FAQ.html"> <p>Foire aux questions</p> </a>
+                    <a href="CGV.html"> <p>Conditions générales de vente</p> </a>
+                    <a href="Transport.html"> <p>Transport et livraison</p> </a>
+                    <a href="Details.html"> <p>Détails techniques</p> </a>
+                </div>
+			
+			</footer>
+		
+		</div>
+    </body>
+	
+
+</html>
