@@ -19,7 +19,7 @@ nav{
 }
 .logo_ent{
     float:left;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 5px;
 }
 
@@ -40,20 +40,20 @@ nav{
 }
 
 #barre_recherche{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 /* menu de navigation */
 
 .menu{
-    margin-left: 7.5%;
+    margin-left: 10%;
     float: left;
     margin-top: 2%;
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color:lightblue;
+    background-color:orange;
     color:black;
     padding: 15px 45px;
     font-size: 20px;
@@ -66,7 +66,7 @@ nav{
 }
 
 .menu_button {
-    background-color: lightblue;
+    background-color: orange;
     color: black;
     padding: 15px 45px;
     font-size: 20px;
@@ -280,15 +280,198 @@ iframe{
     text-align: center;
 }
 
-table{
+.fdp{
     border-collapse: collapse;
     margin-bottom: 50px;
-    margin-left: 25px;
+    margin-left: 5px;
+    font-size: 18px;
+    width: 95%;
+}
+
+.fdp td, th{
+    border: 1px solid gray;
+    text-align: center; 
+}
+
+
+/* barre de notation */
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+    
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: orange;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: orange;  } 
+
+
+
+.note h3{
+    margin: 0 0 0 75px;
+    padding: 0;
+}
+.note fieldset{
+    margin: 0 0 0 45px;
+    padding: 0;
+}
+
+/* Produits similaires */
+
+.autres_bouteilles{
+    align-items: center;
+    margin-left: 5%;
+    
+}
+
+.autres_bouteilles img{
+    width: 15%;
+    margin-top: 1%;
+    margin-right: 2%;
+    
+}
+
+.titre2_page_produit{
+    margin-left: 15px;
+    font-size: 30px;
+}
+    
+
+/* tableau caractéristique bière */
+
+.caract_tab{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+/* Alignement premiere ligne page produit */
+
+.presentation{
+    display: flex;
+    align-content: space-around;
+    margin: 0 25px;
+}
+
+/* Img illustration biere page produit */
+
+#img_beer{
+    height:300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+#img_beer:hover {
+    height: 450px;
+}
+
+/* Texte illustration page produit */
+
+.description{
+    margin-left: 60px;
+    text-align: justify;
+    padding-right: 80px;
+}
+
+.description h1{
+    color: orange;
+}
+
+.txt_gras{
+    font-weight: bold;
+}
+
+/* bouton ajouter panier */
+
+.prix_bouteille{
+    margin: 75px 50px 0 0;
+    border: 2px solid grey;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.prix_produit{
+    border-bottom: 1px solid gray;  
+    color: darkorange;
+    font-weight: bold;
     font-size: 18px;
 }
 
-td, th{
-    border: 1px solid gray;
+.prix_produit p{
+    margin-left: 15px;
 }
 
 
+.quantites{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.quantites p{
+    margin: 15px 0 10px 20px;
+}
+
+.quantites input{
+    width: 110px;
+    margin-left: 20px;
+}
+
+.bouton_ajouter{
+    margin: 10px 20px; 
+}
+.bouton_ajouter input{
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Page thank you */
+
+#thankyou{
+    text-align: center;
+    font-size: 50px;
+}
+
+.txt_plus_gros{
+    font-size: 27px;
+    margin: 0 25px;
+}
+
+#img_thx{
+    margin-left: 30px;
+    margin-top: 30px;
+}
