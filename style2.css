@@ -640,3 +640,15 @@ fieldset, label { margin: 0; padding: 0; }
     font-weight: bold;
     margin-top: 80px;
 }
+
+
+/* Page commande validée */
+
+.commande{
+    width: 95%;
+    margin: 0 30px;
+}
+
+.commande img{
+    height: 100px;
+}
