@@ -776,3 +776,15 @@ fieldset, label { margin: 0; padding: 0; }
     text-align: justify;
     font-size: 20px;
 }
+
+/* Page futs */
+
+.taille_img_liste_fut{
+    height: 165px;
+    margin-top: 35px;
+}
+
+#jupiler{
+    width: 160px;
+    height: auto;
+}
