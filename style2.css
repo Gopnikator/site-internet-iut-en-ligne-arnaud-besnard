@@ -146,9 +146,40 @@ body{
 
 .nom_grande_cat{
     text-align: center;
+    
+}
+
+/* Message du jour */
+
+.grande_cat2{
+    vertical-align: middle;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 20px;
+    margin-bottom: 3%;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: ghostwhite;
+    padding-bottom: 40px;
 }
 
 
+.message_du_jour{
+    display: flex;
+}
+
+.message_du_jour p{
+    margin-left: 3%;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.message_du_jour img{
+    margin-left: 50px;
+    width: 30%;
+    height: 30%;
+}
 
 /* promotions */
 
