@@ -683,3 +683,13 @@ fieldset, label { margin: 0; padding: 0; }
 .commande img{
     height: 100px;
 }
+
+/* Recherche / liste */
+
+.taille_img_liste{
+    height: 250px;
+}
+
+.cat_size{
+    margin-left: 65px;
+}
