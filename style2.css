@@ -687,7 +687,8 @@ fieldset, label { margin: 0; padding: 0; }
 /* Recherche / liste */
 
 .taille_img_liste{
-    height: 250px;
+    height: 230px;
+    margin-top: 35px;
 }
 
 .cat_size{
@@ -702,12 +703,41 @@ fieldset, label { margin: 0; padding: 0; }
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
     margin: 4px 2px;
     border-radius: 50%;
 }
 
 .a_droite{
     float: right;
-    margin-right: 50px;
+    margin-right: 70px;
     margin-bottom: 25px;
+}
+
+.partie_droite_liste{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.partie_droite_liste h3{
+    color: orange;
+}
+
+.prix_liste{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tab_biere_liste{
+    width: 180px;
+}
+
+.tab_biere_liste tr, td{
+    border-bottom: 1px solid gray;
+}
+
+.bordure_gauche{
+    border-left: 1px solid gray;
+    text-align: center;
 }
