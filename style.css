@@ -788,3 +788,8 @@ fieldset, label { margin: 0; padding: 0; }
     width: 160px;
     height: auto;
 }
+
+/* Page contact */
+.textbox, .textarea{
+    width: 200px;
+}
