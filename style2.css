@@ -705,3 +705,9 @@ fieldset, label { margin: 0; padding: 0; }
     margin: 4px 2px;
     border-radius: 50%;
 }
+
+.a_droite{
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
