@@ -748,3 +748,18 @@ fieldset, label { margin: 0; padding: 0; }
 #bouton_nb_actuel{
     background-color: orangered;
 }
+
+.tri_par{
+    margin-left: 30%; 
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.bouton_tri{
+    margin-top: 13px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color:white;
+}
