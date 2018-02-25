@@ -763,3 +763,12 @@ fieldset, label { margin: 0; padding: 0; }
     border: 1px solid gray;
     background-color:white;
 }
+
+/* Page détails techniques */
+
+.details_techniques{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 20px;
+}
