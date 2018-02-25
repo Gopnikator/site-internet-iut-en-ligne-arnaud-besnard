@@ -695,25 +695,6 @@ fieldset, label { margin: 0; padding: 0; }
     margin-left: 65px;
 }
 
-.bouton_nb{
-    background-color: darkorange;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    margin: 4px 2px;
-    border-radius: 50%;
-}
-
-.a_droite{
-    float: right;
-    margin-right: 70px;
-    margin-bottom: 25px;
-}
-
 .partie_droite_liste{
     margin-right: 10px;
     margin-top: 20px;
@@ -740,4 +721,30 @@ fieldset, label { margin: 0; padding: 0; }
 .bordure_gauche{
     border-left: 1px solid gray;
     text-align: center;
+}
+
+.a_droite{
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 25px;
+}
+
+.bouton_nb{
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 50%;
+}
+.bouton_nb:hover{
+    text-decoration: underline;
+}
+
+#bouton_nb_actuel{
+    background-color: orangered;
 }
