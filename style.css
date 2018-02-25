@@ -323,10 +323,14 @@ iframe{
     text-align: center; 
 }
 
+.conditions_vente p{
+    text-align: justify;
+    margin-right:80px;
+}
 
 /* barre de notation */
 
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
 
 fieldset, label { margin: 0; padding: 0; }
     
